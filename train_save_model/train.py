@@ -71,7 +71,7 @@ model.fit(X_combined, y)
 
 
 # Save the model using pickle
-file_name = "xgb_bags_all.pkl"
+file_name = "rf_bags_model.pkl"
 pickle.dump(model, open(file_name, "wb"))
 
 # Make predictions
