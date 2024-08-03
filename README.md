@@ -7,14 +7,8 @@ The first step involves scraping data about Dior bags from a specified website. 
 # Create the model
 The second step involves training a machine learning model using the scraped data. This includes preprocessing the structured data, extracting features from images, and training a regression model to predict the prices.
 
-# Libraries Used:
-joblib
-pandas
-numpy
-tensorflow
-sklearn
-xgboost
-pickle
+  # Libraries Used:
+    joblib, pandas, numpy, tensorflow, sklearn, xgboost, pickle
 
 # Process:
 Load the scraped data and images.
